@@ -1,0 +1,28 @@
+{
+  "name": "tfjs-node-save",
+  "version": "0.0.1",
+  "description": "Tensorflow.js extension for saving models to the filesystem in ANY node environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radi-cho/tfjs-node-save.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "tfjs",
+    "nodejs"
+  ],
+  "author": "Radi Cho <rsg.group.here@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/radi-cho/tfjs-node-save/issues"
+  },
+  "homepage": "https://github.com/radi-cho/tfjs-node-save#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-core": "^0.12.16",
+    "@tensorflow/tfjs-node": "^0.1.14"
+  }
+}
