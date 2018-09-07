@@ -1,6 +1,6 @@
 {
   "name": "tfjs-node-save",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tensorflow.js extension for saving models to the filesystem in ANY node environment.",
   "main": "index.js",
   "scripts": {
