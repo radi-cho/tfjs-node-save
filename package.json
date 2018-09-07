@@ -20,9 +20,5 @@
   "bugs": {
     "url": "https://github.com/radi-cho/tfjs-node-save/issues"
   },
-  "homepage": "https://github.com/radi-cho/tfjs-node-save#readme",
-  "dependencies": {
-    "@tensorflow/tfjs-core": "^0.12.16",
-    "@tensorflow/tfjs-node": "^0.1.14"
-  }
+  "homepage": "https://github.com/radi-cho/tfjs-node-save#readme"
 }

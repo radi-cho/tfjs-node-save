@@ -1,6 +1,5 @@
-var tfc = require("@tensorflow/tfjs-core");
-var nodeFileSystemRouter = require("@tensorflow/tfjs-node/dist/io/file_system")
-  .nodeFileSystemRouter;
+const tfc = require("@tensorflow/tfjs-core");
+const fs = require("./io/file_system");
 
-tfc.io.registerSaveRouter(nodeFileSystemRouter);
-tfc.io.registerLoadRouter(nodeFileSystemRouter);
+tfc.io.registerSaveRouter(fs.nodeFileSystemRouter);
+tfc.io.registerLoadRouter(fs.nodeFileSystemRouter);
