@@ -9,6 +9,8 @@ Here comes `tfjs-node-save`! It allows you to use the native filesystem feature 
 
 > IF YOU USE `tfjs-node` THE FUNCTIONALITY OF THIS MODULE IS ALREADY AVAILABLE AND YOU DON'T NEED IT AT ALL
 
+**[`util.promisify`](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original) is used to enhance performance, so in order `tfjs-node-save` to work correctly you should use NodeJS v.8.0.0 or higher, or transpile the code for lower versions.**
+
 ## Usage
 
 Import this module after the official tensorflow.js package:
